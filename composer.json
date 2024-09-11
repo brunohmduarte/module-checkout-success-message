@@ -2,6 +2,7 @@
     "name": "brunoduarte/module-checkout-success-message",
     "description": "Module responsible for displaying a success message at checkout",
     "type": "magento2-module",
+    "version": "0.1.0",
     "authors": [
         {
             "name": "Bruno Duarte",
@@ -16,6 +17,7 @@
         "php": "~8.1.0||~8.2.0"
     },
     "autoload": {
+        "files": ["registration.php"],
         "psr-4": {
             "Brunoduarte\\ModuleCheckoutSuccessMessage\\": ""
         }
